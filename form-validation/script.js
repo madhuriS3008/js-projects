@@ -67,7 +67,7 @@ function getName(name) {
 }
 
 //event listeners
-form.addEventListener("click", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   checkRequired([username, email, password, password2]);
